@@ -17,6 +17,7 @@ import MobileApp from './components/softwareSolutions/MobileApp'
 import WebsiteDesign from './components/softwareSolutions/WebsiteDesign'
 import Career from './components/Career'
 import Gallery from './components/Gallery'
+import AboutUs from './components/AboutUs';
 
 
 
@@ -37,9 +38,10 @@ function App() {
         <Route path='/webdevlopment' element={<WebsiteDesign />}></Route>
         <Route path='/mobileappdevelopment' element={<MobileApp />}></Route>
         <Route path='/crm' element={<CrmErpServices />}></Route>
-        <Route path='/domainhosting' element={<DomainHostingServices />}></Route> 
+        <Route path='/domainhosting' element={<DomainHostingServices />}></Route>
         <Route path='/gallery' element={<Gallery />}></Route>
         <Route path='/career' element={<Career />}></Route>
+        <Route path='/aboutus' element={<AboutUs />}></Route>
       </Routes>
       <Footer></Footer>
     </>
